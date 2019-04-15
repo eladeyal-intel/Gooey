@@ -712,7 +712,7 @@ Giving visual progress feedback with Gooey is easy! If you're already displaying
 
 For simple cases, output strings which resolve to a numeric representation of the completion percentage (e.g. `Progress 83%`) can be pattern matched and turned into a progress bar status with a simple regular expression (e.g. `@Gooey(progress_regex=r"^progress: (\d+)%$")`). 
 
-For more complicated outputs, you can pass in a custom evaluation expression (`progress_expr`) to transform regular expression matches as needed. 
+For more complicated outputs, you can pass in a custom evaluation expression (`progress_expr`) to transform regular expression matches as needed. You can also use `hide_progress_msg` to hide the progress updates from the console output, so they are only reflected in the graphical progress bar.
 
 Output strings which satisfy the regular expression can be hidden from the console via the `hide_progress_msg` parameter (e.g. `@Gooey(progress_regex=r"^progress: (\d+)%$", hide_progress_msg=True)`.
 
