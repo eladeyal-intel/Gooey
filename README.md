@@ -26,7 +26,7 @@ Table of Contents
 - [Global Configuration](#global-configuration)
 - [Layout Customization](#layout-customization)
 - [Run Modes](#run-modes)
-    - [Full/Advanced](#advanced)
+    - [Advanced (or: Full)](#Advanced (or: Full))
     - [Basic](#basic)
     - [No Config](#no-config)
 - [Menus](#menus)    
@@ -335,7 +335,7 @@ Gooey has a handful of presentation modes so you can tailor its layout to your c
 
 
 
-### Advanced 
+### Advanced (or: Full)
 
 
 
